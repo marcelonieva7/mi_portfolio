@@ -1,0 +1,78 @@
+@import "colors.scss";
+$subtFont : 2rem;
+$titulos : (
+    padd1: rgb(38, 216, 38),
+    padd2: rgb(148, 204, 17),
+    padd3: rgb(216, 118, 38),
+    padd4: rgb(216, 38, 148),
+);
+body, html {
+    height: 100%;
+    background-color: $negro;
+    margin: 0%;
+}
+main {
+    margin-top: 20%;
+}
+.barra {
+    background-image: linear-gradient(to top, $negro, $cyanOscuro, $negro);
+}
+.carrusel {
+    margin-top: 15%;
+}
+.relleno {
+    margin-top: 17%;
+}
+/* Estilos de texto */
+.presentacion__titulo {
+    font-family: 'Teko', sans-serif;
+    font-size: 70px;
+    color: $celeste;
+    line-height: 70px;
+}
+@each $class, $color in $titulos {
+    .presentacion__titulo--#{$class} {
+        @extend .presentacion__titulo;
+        color: $color;
+        padding-top: 5%;
+    }    
+}
+.presentacion__subtitulo {
+    color: $grisOscuro;
+    font-size: $subtFont/2;
+}
+.carrusel__titulo {
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: $verdeAgua;
+}  
+.relleno__texto {
+    font-family: 'Noto Sans SC', sans-serif;
+    color: $grisClaro;
+}
+/* Estilos de texto */
+
+/* Estilos para iconos */
+svg {
+    fill: white;
+}  
+svg:hover {
+    fill: $grisOscuro;
+}
+/* Estilos para iconos */
+
+/* Diseño de Escritorio */
+@media (min-width: 768px) {
+    .barra {
+        height: 100%;
+        background-image: linear-gradient(to right, $negro, $cyanOscuro, $negro);
+    }
+    main {
+        margin-top: 0;
+    }
+    .presentacion__subtitulo {
+        font-size: $subtFont;
+    }
+}
+/* Diseño de Escritorio */
