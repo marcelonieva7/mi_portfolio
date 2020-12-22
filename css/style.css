@@ -12,7 +12,8 @@ body{
   position: fixed; 
   top: 0px;
   left: 0px;
-  height:100%;
+  height:100vh;
+  width: 100vw;
 }
 /* Fondo Canvas Fin */
 /* Menu Circular  */
@@ -310,7 +311,7 @@ body{
 }
 /* Icono Redes Fin*/
 
-main {
+.main0 {
   height: 70vh;
 }
 .main-icons{
@@ -677,8 +678,8 @@ button:hover {
 /* Skills cards */
 .container0{
   display: grid;
-  grid-template: repeat(12, 1fr)/repeat(1, 1fr);
-  grid-gap: 0.5em;}
+  grid-template: repeat(10, 1fr)/repeat(1, 1fr);
+  grid-gap: 1.5em;}
 .skill-card {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   cursor: pointer;
@@ -882,7 +883,7 @@ header.node {
     grid-row: span 2;
   }
   .container0{
-    grid-template: repeat(3, 1fr)/repeat(2, 1fr);
+    grid-template: repeat(5, 1fr)/repeat(2, 1fr);
   }
   [id^="lightbox-"] .title {
     height: 20%;
@@ -923,7 +924,7 @@ header.node {
     font-size: 55px;
     color: #eeeeee;
   }
-    main {
+    .main0 {
     margin-top: 0;
     height: 100vh; 
   }
