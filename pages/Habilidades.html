@@ -2,89 +2,191 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <title>MN Full Stack Dev | Habilidades</title>
     <meta name="description" content="Descubri todas las tecnologias del desarrollo web en las que me especialzo">
     <meta name="keywords" content="web developer, full stack, freelancer desarrollador web, html, java script, react, mongo, express, node">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- Bootstrap CSS -->
+    <script src="https://kit.fontawesome.com/40aac951d6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&family=Teko:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="container-fluid h-100">
-    <div class="row h-100">
-      <aside class="barra col-12 col-md-1 p-0 fixed-top">
-          <nav class="navbar navbar-expand navbar-dark flex-md-column flex-row align-items-center py-2 h-100">
-              <div class="collapse navbar-collapse align-items-center">
-                  <ul class="flex-md-column flex-row navbar-nav w-100 justify-content-around h-100">
-                    <li class="nav-item">
-                      <a class="nav-link" href="../index.html">
-                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-                          <title>Home</title>
-                          <path d="M32 18.451l-16-12.42-16 12.42v-5.064l16-12.42 16 12.42zM28 18v12h-8v-8h-8v8h-8v-12l12-9z" ></path>
-                        </svg>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="AboutMe.html">
-                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-                          <title>Quien Soy</title>
-                          <path d="M10 6c0-3.314 2.686-6 6-6s6 2.686 6 6c0 3.314-2.686 6-6 6s-6-2.686-6-6zM24.002 14h-1.107l-6.222 12.633 2.327-11.633-3-3-3 3 2.327 11.633-6.222-12.633h-1.107c-3.998 0-3.998 2.687-3.998 6v10h24v-10c0-3.313 0-6-3.998-6z"></path>
-                        </svg>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="Habilidades.html">
-                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-                          <title>Mis Habilidades</title>
-                          <path d="M20.807 10.22l-2.030-2.029-10.15 10.148c-1.682 1.681-1.682 4.408 0 6.089s4.408 1.681 6.090 0l12.18-12.178c2.804-2.802 2.804-7.346 0-10.148-2.802-2.803-7.347-2.803-10.149 0l-12.788 12.787c-0.009 0.009-0.019 0.018-0.027 0.026-3.909 3.909-3.909 10.245 0 14.153 3.908 3.908 10.246 3.908 14.156 0 0.009-0.009 0.016-0.018 0.026-0.027l0.001 0.001 8.729-8.728-2.031-2.029-8.729 8.727c-0.009 0.008-0.018 0.018-0.026 0.026-2.784 2.783-7.312 2.783-10.096 0-2.783-2.783-2.783-7.31 0-10.093 0.010-0.009 0.019-0.018 0.028-0.026l-0.001-0.002 12.79-12.786c1.678-1.679 4.411-1.679 6.090 0s1.678 4.411 0 6.089l-12.18 12.178c-0.56 0.56-1.47 0.56-2.030 0-0.559-0.559-0.559-1.47 0-2.029l10.15-10.149z"></path>
-                        </svg>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="Expericencia.html">
-                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-                          <title>Experiencia Laboral</title>
-                          <path d="M31.562 25.905l-9.423-9.423c-0.583-0.583-1.538-0.583-2.121 0l-0.707 0.707-5.75-5.75 9.439-9.439h-10l-4.439 4.439-0.439-0.439h-2.121v2.121l0.439 0.439-6.439 6.439 5 5 6.439-6.439 5.75 5.75-0.707 0.707c-0.583 0.583-0.583 1.538 0 2.121l9.423 9.423c0.583 0.583 1.538 0.583 2.121 0l3.535-3.535c0.583-0.583 0.583-1.538 0-2.121z"></path>
-                        </svg>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="Contacto.html">
-                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
-                          <title>Contacto</title>
-                          <path d="M26.667 0h-21.333c-2.934 0-5.334 2.4-5.334 5.334v21.332c0 2.936 2.4 5.334 5.334 5.334h21.333c2.934 0 5.333-2.398 5.333-5.334v-21.332c0-2.934-2.399-5.334-5.333-5.334zM26.667 4c0.25 0 0.486 0.073 0.688 0.198l-11.355 9.388-11.355-9.387c0.202-0.125 0.439-0.198 0.689-0.198h21.333zM5.334 28c-0.060 0-0.119-0.005-0.178-0.013l7.051-9.78-0.914-0.914-7.293 7.293v-19.098l12 14.512 12-14.512v19.098l-7.293-7.293-0.914 0.914 7.051 9.78c-0.058 0.008-0.117 0.013-0.177 0.013h-21.333z"></path>
-                        </svg>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-            </nav>
-      </aside>
-      <main class="col offset-md-1 bg-faded py-3">
-        <section class="presentacion">
-          <h1 class="presentacion__titulo--padd4">Mis Habilidades</h1>
-        </section>
-        <section class="relleno">
-          <p class="relleno__texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione iure eveniet non itaque tempora nihil molestias. Nisi accusamus, praesentium, similique sit rem, consequuntur atque pariatur minima debitis incidunt iusto at. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsam, explicabo dolores beatae fugit est laboriosam labore quaerat expedita perferendis quod tempore perspiciatis sapiente placeat ab similique cum corporis nulla.</p>
-          <br/>
-          <p class="relleno__texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione iure eveniet non itaque tempora nihil molestias. Nisi accusamus, praesentium, similique sit rem, consequuntur atque pariatur minima debitis incidunt iusto at. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsam, explicabo dolores beatae fugit est laboriosam labore quaerat expedita perferendis quod tempore perspiciatis sapiente placeat ab similique cum corporis nulla.</p>
-          <br/>
-          <p class="relleno__texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione iure eveniet non itaque tempora nihil molestias. Nisi accusamus, praesentium, similique sit rem, consequuntur atque pariatur minima debitis incidunt iusto at. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsam, explicabo dolores beatae fugit est laboriosam labore quaerat expedita perferendis quod tempore perspiciatis sapiente placeat ab similique cum corporis nulla.</p>
-          <br/>
-          <p class="relleno__texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione iure eveniet non itaque tempora nihil molestias. Nisi accusamus, praesentium, similique sit rem, consequuntur atque pariatur minima debitis incidunt iusto at. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsam, explicabo dolores beatae fugit est laboriosam labore quaerat expedita perferendis quod tempore perspiciatis sapiente placeat ab similique cum corporis nulla.</p>
-          <br/>
-          <p class="relleno__texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione iure eveniet non itaque tempora nihil molestias. Nisi accusamus, praesentium, similique sit rem, consequuntur atque pariatur minima debitis incidunt iusto at. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsam, explicabo dolores beatae fugit est laboriosam labore quaerat expedita perferendis quod tempore perspiciatis sapiente placeat ab similique cum corporis nulla.</p>
-        </section>
-      </main>
+<div class="container-fluid h-100">
+<div class="row h-100">
+  <canvas id="projector">Your browser does not support the Canvas element.</canvas>
+  <nav class="circular-menu col-12 fixed-top d-md-none d-block">
+    <input class="circular-menu__button" id="circular-menu" type="checkbox"/>
+    <label class="circular-menu__icon" for="circular-menu">
+      <div class="hamburger hamburger-bar"></div>
+      <div class="hamburger hamburger-bar"></div>
+      <div class="hamburger hamburger-bar"></div>
+    </label>
+      <a class="circular-menu__item" href="../index.html"><i class="fas fa-home"></i></a>
+      <a class="circular-menu__item" href="AboutMe.html"><i class="fas fa-user"></i></a>
+      <a class="circular-menu__item" href="Habilidades.html"><i class="fas fa-tools"></i></a>
+      <a class="circular-menu__item" href="Expericencia.html"><i class="fas fa-briefcase"></i></a>
+      <a class="circular-menu__item" href="Contacto.html"><i class="fas fa-envelope"></i></a>
+  </nav>
+  <nav class="redes col-12 fixed-bottom d-lg-none d-block">
+    <input class="redes__button" id="redes" type="checkbox"/>
+    <label class="redes__icon d-md-none" for="redes">
+      <i class="fas fa-share-alt"></i>
+    </label>
+      <a class="redes__item" target="_blank" href="https://github.com/marcelonieva7/"><i class="fab fa-github"></i></a>
+      <a class="redes__item" target="_blank" href="https://twitter.com/_MarceloNieva/"><i class="fab fa-twitter"></i></a>
+      <a class="redes__item" target="_blank" href="https://wa.me/543804928129"><i class="fab fa-whatsapp"></i></a>
+      <a class="redes__item" target="_blank" href="https://www.linkedin.com/in/marcelo-nieva-3968681b3/"><i class="fab fa-linkedin-in"></i></a>
+  </nav>
+  <nav class="barra col-md-1 p-0 fixed-top d-md-flex d-none h-100">
+    <ul class="d-md-flex flex-md-column navbar-nav align-items-center justify-content-around w-100 h-100">
+      <li class="nav-item">
+        <a class="nav-link" href="../index.html"><i class="fas fa-home"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="AboutMe.html"><i class="fas fa-user"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Habilidades.html"><i class="fas fa-tools"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Expericencia.html"><i class="fas fa-briefcase"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Contacto.html"><i class="fas fa-envelope"></i></a>
+      </li>
+    </ul>                
+  </nav>
+  <aside class="tarjeta col-12 col-md-11 col-lg-4 offset-md-1 offset-lg-8" data-aos="zoom-out" data-aos-duration="1200">
+    <div class="foto d-flex flex-lg-column flex-row align-items-center justify-content-center">
+        <div class="fperfil w-100 d-flex flex-row align-items-center justify-content-center">
+          <img class="fperfil-f" src="../images/perfil.jpg" alt="perfil">
+        </div>
+        <div class="tarjeta-redes flex-lg-row flex-md-column d-none d-md-none d-lg-flex align-items-center justify-content-around">
+          <a class="tarjeta-redes-items" target="_blank" href="https://github.com/marcelonieva7/"><i class="fab fa-github"></i></a>
+          <a class="tarjeta-redes-items" target="_blank" href="https://twitter.com/_MarceloNieva/"><i class="fab fa-twitter"></i></a>
+          <a class="tarjeta-redes-items" target="_blank" href="https://wa.me/543804928129"><i class="fab fa-whatsapp"></i></a>
+          <a class="tarjeta-redes-items" target="_blank" href="https://www.linkedin.com/in/marcelo-nieva-3968681b3/"><i class="fab fa-linkedin-in"></i></a>
+        </div>
     </div>
-  </div>
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </aside>
+  <main class="col-12 col-lg-7 offset-lg-1 col-md-9 offset-md-2 bg-faded py-3">
+    <section class="relleno">
+      <h1 class="presentacion__titulo">Mis Habilidades</h1>
+    </section><div class="container0">
+      <div class="skill-card">
+          <header class="skill-card_header html"><img class="skill-card_icon" src="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg" alt="HTML5 Logo"></header>
+          <section class="skill-card_body">
+            <h2 class="skill-card_title">html</h2><span class="skill-card_duration">Trainee</span>
+            <ul class="skill-card_knowledge">
+              <li>Etiquetas semánticas</li>
+              <li>Responsive desing</li>
+            </ul>
+          </section>
+      </div>
+      <div class="skill-card">
+        <header class="skill-card_header css"><img class="skill-card_icon" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS Logo"></header>
+        <section class="skill-card_body">
+          <h2 class="skill-card_title">css</h2><span class="skill-card_duration">Trainee</span>
+          <ul class="skill-card_knowledge">
+            <li>Box model</li>
+            <li>Flex Box</li>
+            <li>Grids</li>
+          </ul>
+        </section>
+      </div>
+      <div class="skill-card">
+      <header class="skill-card_header sass"><img class="skill-card_icon" src="https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg" alt="SASS Logo"></header>
+      <section class="skill-card_body">
+        <h2 class="skill-card_title">sass</h2><span class="skill-card_duration">Trainee</span>
+        <ul class="skill-card_knowledge">
+          <li>Mixins</li>
+          <li>Anidaciones</li>
+          <li>Controles de flujo</li>
+        </ul>
+      </section>
+      </div>
+      <div class="skill-card">
+        <header class="skill-card_header BOOTSTRAP"><img class="skill-card_icon" src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="BOOTSTRAP Logo"></header>
+        <section class="skill-card_body">
+          <h2 class="skill-card_title">BOOTSTRAP</h2><span class="skill-card_duration">Trainee</span>
+          <ul class="skill-card_knowledge">
+            <li>Grillas</li>
+            <li>Carousel</li>
+            <li>Formularios</li>
+          </ul>
+        </section>
+      </div>
+      <div class="skill-card">
+        <header class="skill-card_header JavaScript"><img class="skill-card_icon" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="Javascript Logo"></header>
+        <section class="skill-card_body">
+          <h2 class="skill-card_title">JavaScript</h2><span class="skill-card_duration">Trainee</span>
+          <ul class="skill-card_knowledge">
+            <li>Variables y control de flujos</li>
+            <li>Programacion avanzada con funciones</li>
+            <li>Storage y JSON & DOM</li>
+          </ul>
+        </section>
+      </div>
+      <div class="skill-card">
+        <header class="skill-card_header R"><img class="skill-card_icon" src="https://www.r-project.org/logo/Rlogo.svg" alt="R Logo"></header>
+        <section class="skill-card_body">
+          <h2 class="skill-card_title">R</h2><span class="skill-card_duration">Trainee</span>
+        </section>
+      </div>
+      <div class="skill-card">
+        <header class="skill-card_header GIT"><img class="skill-card_icon" src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg" alt="GIT Logo"></header>
+        <section class="skill-card_body">
+          <h2 class="skill-card_title">GIT</h2><span class="skill-card_duration">Trainee</span>
+          <ul class="skill-card_knowledge">
+            <li>Flujo de trabajo básico</li>
+            <li>Trabajo con repositorios remotos</li>
+          </ul>
+        </section>
+      </div>
+      <div class="skill-card">
+        <header class="skill-card_header PYTHON"><img class="skill-card_icon" src="https://www.python.org/static/community_logos/python-logo-generic.svg" alt="PYTHON Logo"></header>
+        <section class="skill-card_body">
+          <h2 class="skill-card_title">PYTHON</h2><span class="skill-card_duration">Trainee</span>
+          <ul class="skill-card_knowledge">
+            <li>Estructura de datos</li>
+            <li>Bucles</li>
+            <li>Funciones</li>
+          </ul>
+        </section>
+      </div>
+      <div class="skill-card">
+        <header class="skill-card_header ANGULAR"><img class="skill-card_icon" src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg" alt="ANGULAR Logo"></header>
+        <section class="skill-card_body">
+          <h2 class="skill-card_title">ANGULAR (proximamente)</h2><span class="skill-card_duration">En estudio</span>
+        </section>
+      </div>
+      <div class="skill-card">
+        <header class="skill-card_header node"><img class="skill-card_icon" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="NODE Logo"></header>
+        <section class="skill-card_body">
+          <h2 class="skill-card_title">node (proximamente)</h2><span class="skill-card_duration">En estudio</span>
+        </section>
+      </div>
+    </div>
+  </main>
+</div>
+</div>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<!-- AOS Script -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+<!-- Canvas background -->
+<script src='https://code.createjs.com/easeljs-0.7.1.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js'></script>
+<script src="../scripts/canvas bg.js"></script>
 </body>
 </html>
