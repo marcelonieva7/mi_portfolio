@@ -310,6 +310,17 @@ body{
 }
 /* Icono Redes Fin*/
 
+main {
+  height: 70vh;
+}
+.main-icons{
+  display: flex;
+  justify-content: flex-start;
+}
+.main-icons2{
+  display: flex;
+  justify-content: flex-end;
+}
 .barra {
   background-color: #222831; }
 
@@ -324,11 +335,15 @@ body{
   padding: 5%;
 }
 .tarjeta {
-  margin-top: 2vh;
+  padding-top: 5%;
+  height: 30vh;
+}
+.foto{
+  height: 100%;
 }
 .fperfil {
   background-color:#00adb52a;
-  height: 30vh;
+  height: 100%;
   box-shadow: 0px 2px 11px -3px #000000, 0px 2px 11px -3px #000000;
 }
 .fperfil-f {
@@ -521,14 +536,6 @@ body{
   font-size: 50px;
   color: #eeeeee;
   text-shadow: 1px 1px 6px #000000;
-}
-.deco1{
-  position: absolute;
-  right: 0%;
-}
-.deco2 {
-  position: absolute;
-  right: 41px;
 }
 .tarjeta {
   position: static;
@@ -801,13 +808,13 @@ header.node {
 /* Diseño de tablet */
 @media (min-width: 768px) {
   .presentacion__titulo {
-  font-size: 70px;
-  line-height: 100px;
+  font-size: 7vh;
+  line-height: 8vh;
   }
   .tarjeta{
     position: static;
     top: 0%;
-    height: 40vh;
+    height: 30vh;
   }
   .deco, .deco1, .deco2 {
     font-size: 80px;
@@ -831,7 +838,7 @@ header.node {
     margin-top: 0; 
   }
   .presentacion__subtitulo {
-    font-size: 2rem;
+    font-size: 4vh;
   }
   form {
     width: 80%;
@@ -891,9 +898,7 @@ header.node {
   /* .deco {
     margin-top: 10%;
   } */
-  .presentacion {
-    margin-top: 5%;
-  }
+ 
   .tarjeta{
     position: fixed;
     top: 0%;
@@ -921,9 +926,6 @@ header.node {
     main {
     margin-top: 0;
     height: 100vh; 
-  }
-  .presentacion__subtitulo {
-    font-size: 2rem;
   }
 }
 /* Diseño de Escritorio Fin*/
