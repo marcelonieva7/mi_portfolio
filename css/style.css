@@ -561,9 +561,6 @@ body{
 .fas {
   width: auto;
   height: auto;
-} {
-  width: auto;
-  height: auto;
 }
 .fab
 /* Formulario */
@@ -829,7 +826,29 @@ header.node {
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
 }
-
+/* Diseño mobile landscape */
+@media (max-width: 768px) and (orientation: landscape) {
+.main0 {
+  height: auto;
+}
+.tarjeta {
+  height: auto;
+}
+.circular-menu {
+  left: 7vw;
+}
+.circular-menu__item {
+  font-size: 22px;
+}
+.redes {
+  left: auto;
+  right: 1.5vw;
+}
+.redes__item {
+  font-size: 22px;
+}
+}
+/* Diseño mobile landscape fin*/
 /* Diseño de tablet */
 @media (min-width: 768px) {
   .presentacion__titulo {
@@ -844,12 +863,6 @@ header.node {
   .deco, .deco1, .deco2 {
     font-size: 80px;
   }
-  .deco2{
-    right: 64px;
-  }
-  /* .deco2 {
-    margin-left: 70%; 
-  }*/
   .fperfil {
     border-radius: 5px;
   }
