@@ -231,15 +231,22 @@ body{
 .redes__button:checked ~ .redes__item:nth-of-type(3) {
   -webkit-transition-duration: 0.38s;
           transition-duration: 0.38s;
-  -webkit-transform: translate3d(-174%, -85%, 0);
-          transform: translate3d(-174%, -85%, 0);
+  -webkit-transform: translate3d(0, -210%, 0);
+          transform: translate3d(0, -210%, 0);
   opacity: 1;
 }
 .redes__button:checked ~ .redes__item:nth-of-type(4) {
   -webkit-transition-duration: 0.48s;
           transition-duration: 0.48s;
-  -webkit-transform: translate3d(-85%, -174%, 0);
-          transform: translate3d(-85%, -174%, 0);
+  -webkit-transform: translate3d(-115%, -120%, 0);
+          transform: translate3d(-115%, -120%, 0);
+  opacity: 1;
+}
+.redes__button:checked ~ .redes__item:nth-of-type(5) {
+  -webkit-transition-duration: 0.58s;
+          transition-duration: 0.58s;
+  -webkit-transform: translate3d(-210%, 0, 0);
+          transform: translate3d(-210%, 0, 0);
   opacity: 1;
 }
 .redes__icon {
@@ -577,6 +584,9 @@ form {
   background-color: #393e46;
   width: 100%;
 }
+textarea, input {
+  color: aqua;
+}
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
@@ -895,13 +905,16 @@ header.node {
     transform: translate3d(13.7vw, -48vh, 0);
   }
   .redes__button ~ .redes__item:nth-of-type(2) {
-    transform: translate3d(13.7vw, -35vh, 0);
+    transform: translate3d(13.7vw, -38vh, 0);
   }
   .redes__button ~ .redes__item:nth-of-type(3) {
-    transform: translate3d(13.7vw, -22vh, 0);
+    transform: translate3d(13.7vw, -28vh, 0);
   }
   .redes__button ~ .redes__item:nth-of-type(4) {
-    transform: translate3d(13.7vw, -9vh, 0);
+    transform: translate3d(13.7vw, -18vh, 0);
+  }
+  .redes__button ~ .redes__item:nth-of-type(5) {
+    transform: translate3d(13.7vw, -8vh, 0);
   }
   #gallery {
     grid-template: repeat(6, 1fr)/repeat(6, 1fr);
