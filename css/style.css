@@ -53,31 +53,31 @@ body{
 .circular-menu__button:checked ~ .circular-menu__item:nth-of-type(1) {
   -webkit-transition-duration: 0.18s;
           transition-duration: 0.18s;
-          transform: translate3d(0px, 19vw, 0);
+          transform: translate3d(0px, 100%, 0);
   opacity: 1;
 }
 .circular-menu__button:checked ~ .circular-menu__item:nth-of-type(2) {
   -webkit-transition-duration: 0.28s;
           transition-duration: 0.28s;
-          transform: translate3d(0px, 40vw, 0);
+          transform: translate3d(0px, 200%, 0);
   opacity: 1;
 }
 .circular-menu__button:checked ~ .circular-menu__item:nth-of-type(3) {
   -webkit-transition-duration: 0.38s;
           transition-duration: 0.38s;
-          transform: translate3d(0px, 61vw, 0);
+          transform: translate3d(0px, 300%, 0);
   opacity: 1;
 }
 .circular-menu__button:checked ~ .circular-menu__item:nth-of-type(4) {
   -webkit-transition-duration: 0.48s;
           transition-duration: 0.48s;
-          transform: translate3d(0px, 82vw, 0);
+          transform: translate3d(0px, 400%, 0);
           opacity: 1;
 }
 .circular-menu__button:checked ~ .circular-menu__item:nth-of-type(5) {
   -webkit-transition-duration: 0.58s;
           transition-duration: 0.58s;
-          transform: translate3d(0px, 103vw, 0);
+          transform: translate3d(0px, 500%, 0);
           opacity: 1;
 }
 .circular-menu__icon {
@@ -85,7 +85,10 @@ body{
   border-radius: 100%;
   box-shadow: 0 2px 5px rgba(0,0,0,0.25);
   color: #fff;
-  height: 20vw;
+  height: 79px;
+  width: 79px;
+  max-width: 15vh;
+  max-height: 15vh;
   margin-left: -40px;
   position: absolute;
   text-align: center;
@@ -96,8 +99,6 @@ body{
   transition: -webkit-transform ease-out 0.2s;
   transition: transform ease-out 0.2s;
   transition: transform ease-out 0.2s, -webkit-transform ease-out 0.2s;
-  width: 20vw;
-  cursor: pointer;
   -webkit-transform: scale(1.1, 1.1) translate3d(0, 0, 0);
           transform: scale(1.1, 1.1) translate3d(0, 0, 0);
   -webkit-transition-duration: 0.4s;
@@ -138,15 +139,19 @@ body{
           transform: translate3d(0, 8px, 0);
 }
 .circular-menu__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #222831;
   border-radius: 100%;
   box-shadow: 0 2px 5px rgba(0,0,0,0.25);
   color: #eeeeee;
-  height: 20vw;
-  line-height: 19vw;
+  height: 79px;
+  width: 79px;
+  max-width: 15vh;
+  max-height: 15vh;
   margin-left: -40px;
   position: absolute;
-  text-align: center;
   top: 20px;
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
@@ -154,8 +159,7 @@ body{
   transition: -webkit-transform ease-out 0.2s;
   transition: transform ease-out 0.2s;
   transition: transform ease-out 0.2s, -webkit-transform ease-out 0.2s;
-  width: 20vw;
-  font-size: 9vw;
+  font-size: 32px;
   opacity: 0;
 }
 .circular-menu__item:nth-of-type(1) {
@@ -213,50 +217,52 @@ body{
 .redes__button:checked ~ .redes__item:nth-of-type(1) {
   -webkit-transition-duration: 0.18s;
           transition-duration: 0.18s;
-  -webkit-transform: translate3d(-19vw, 0px, 0);
-          transform: translate3d(-19vw, 0px, 0);
+  -webkit-transform: translate3d(-100%, 0px, 0);
+          transform: translate3d(-100%, 0px, 0);
   opacity: 1;
 }
 .redes__button:checked ~ .redes__item:nth-of-type(2) {
   -webkit-transition-duration: 0.28s;
           transition-duration: 0.28s;
-  -webkit-transform: translate3d(0vw, -19vw, 0);
-          transform: translate3d(0vw, -19vw, 0);
+  -webkit-transform: translate3d(0vw, -100%, 0);
+          transform: translate3d(0vw, -100%, 0);
   opacity: 1;
 }
 .redes__button:checked ~ .redes__item:nth-of-type(3) {
   -webkit-transition-duration: 0.38s;
           transition-duration: 0.38s;
-  -webkit-transform: translate3d(-33vw, -16vw, 0);
-          transform: translate3d(-33vw, -16vw, 0);
+  -webkit-transform: translate3d(-174%, -85%, 0);
+          transform: translate3d(-174%, -85%, 0);
   opacity: 1;
 }
 .redes__button:checked ~ .redes__item:nth-of-type(4) {
   -webkit-transition-duration: 0.48s;
           transition-duration: 0.48s;
-  -webkit-transform: translate3d(-16vw, -33vw, 0);
-          transform: translate3d(-16vw, -33vw, 0);
+  -webkit-transform: translate3d(-85%, -174%, 0);
+          transform: translate3d(-85%, -174%, 0);
   opacity: 1;
 }
 .redes__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background:#222831cb;
   border-radius: 100%;
   box-shadow: 0 2px 5px rgba(0,0,0,0.25);
   color: #eeeeee;
-  height: 20vw;
-  line-height: 19vw;
+  height: 79px;
+  width: 79px;
+  max-width: 15vh;
+  max-height: 15vh;
   margin-left: -40px;
   position: absolute;
-  text-align: center;
-  top: 20px;
+    top: 20px;
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
   -webkit-transition: -webkit-transform ease-out 0.2s;
   transition: -webkit-transform ease-out 0.2s;
   transition: transform ease-out 0.2s;
   transition: transform ease-out 0.2s, -webkit-transform ease-out 0.2s;
-  width: 20vw;
-  cursor: pointer;
   -webkit-transform: scale(1.1, 1.1) translate3d(0, 0, 0);
           transform: scale(1.1, 1.1) translate3d(0, 0, 0);
   -webkit-transition-duration: 0.4s;
@@ -270,15 +276,19 @@ body{
           transform: scale(1.2, 1.2) translate3d(0, 0, 0);
 }
 .redes__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #222831;
   border-radius: 100%;
   box-shadow: 0 2px 5px rgba(0,0,0,0.25);
   color: #eeeeee;
-  height: 20vw;
-  line-height: 19vw;
+  height: 79px;
+  width: 79px;
+  max-width: 15vh;
+  max-height: 15vh;
   margin-left: -40px;
   position: absolute;
-  text-align: center;
   top: 20px;
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
@@ -286,8 +296,7 @@ body{
   transition: -webkit-transform ease-out 0.2s;
   transition: transform ease-out 0.2s;
   transition: transform ease-out 0.2s, -webkit-transform ease-out 0.2s;
-  width: 20vw;
-  font-size: 9vw;
+  font-size: 32px;
   opacity: 0;
 }
 .redes__item:nth-of-type(1) {
@@ -549,6 +558,14 @@ body{
 .tarjeta {
   position: static;
 }
+.fas {
+  width: auto;
+  height: auto;
+} {
+  width: auto;
+  height: auto;
+}
+.fab
 /* Formulario */
 
 .formulario-titulo {
