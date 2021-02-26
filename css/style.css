@@ -4,7 +4,7 @@ body{
 	height:100%; 
 	padding:0px; 
 	margin:0px;
-	background: linear-gradient(0deg,  #191d1e 50%,#283139 100%);
+	background: linear-gradien(0deg,  #191d1e 50%,#283139 100%);
 	background-attachment: fixed
 }
 /* Fondo Canvas */
@@ -21,7 +21,7 @@ body{
   font-size: 20px;
   width: 100px;
   height: 250px;
-  left: 14vw;
+  left: 1vw;
 }
 .circular-menu__button {
   display: none;
